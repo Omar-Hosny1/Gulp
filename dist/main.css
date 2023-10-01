@@ -1,5 +1,9 @@
 .content{
     background: #000;
+    height: 500px;
+    transform: rotate(50%);
+    left: -50%;
+    display: flex;
 }
 .footer{
     background: #000;
