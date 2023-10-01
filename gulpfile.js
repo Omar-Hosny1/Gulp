@@ -8,7 +8,7 @@ gulp.task("firstTask", async () => {
 
 
 // Second Task
-gulp.task("Concat_All_CSS_Files_To_Only_One_File", async () => {
+gulp.task("Concat_All_CSS_Files_To_Only_One_File_CSS", async () => {
     return gulp.src("project/*.css")
         .pipe(concat("main.css"))
         .pipe(gulp.dest('dist'))
